@@ -1,0 +1,27 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+  body 
+    #container
+      #markdown!= body
+      
+      #fixed
+        #logo
+        nav
+          h1 API
+          - each items, topic in nav
+            div(class=topic)
+              a(href=docRoot+topic)
+                h2= topic
+              ul
+                - each item, name in items
+                  li
+                    a(href=docRoot+item.path)
+                      small= item.method 
+                      #{name}
+    
+
+
+    script(type='text/javascript', src='/js/hijs.js')

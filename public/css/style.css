@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  font: 11px/20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #383c3d;
+}
+
+ul {
+  margin: 0px;
+}
+
+a {
+  color: #999;
+}
+
+a:hover {
+  color: #666;
+  background: #f3f3f3;
+}
+
+strong {
+  background: #f3f3f3;
+  border-bottom: 1px solid #ccc;
+  padding: 2px;
+}
+
+small, em {
+  font-style: normal;
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+h1 {
+  margin: 0px 0px 8px 0px;
+}
+
+#container {
+  min-width: 800px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#markdown {
+  margin-left: 200px;
+}
+
+#fixed {
+  position: fixed;
+  top: 15px;
+}
+
+#logo {
+  background: url('/images/logo.png') no-repeat;
+  width: 162px;
+  height: 34px;
+}
+
+nav {
+  width: 150px;
+  padding: 10px;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+}
+
+nav h1 {
+  font-size: 1.3em;
+}
+
+nav h2 {
+  font-size: 1.1em;
+  margin: 5px 0px;
+  color: #555;
+}
+
+a:hover h2 {
+  text-decoration: underline;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 2px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+pre {
+  padding: 10px;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+code .keyword, code .number {
+  font-weight: bold;
+}
+code .keyword {
+  color: #b05337;
+}
+code .string, code .regexp {
+  color: #7e7e7e;
+}
+code .class, code .special {
+  color: #5fb037;
+}
+code .number {
+  color: #378cb0;
+}
