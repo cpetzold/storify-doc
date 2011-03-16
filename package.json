@@ -1,0 +1,20 @@
+{
+  "name": "storify-docs",
+  "description": "api documentation for storify",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cpetzold/storify-doc.git"
+  },
+  "author": "Conner Petzold <cpetzold@gmail.com> (http://conner.the0th.com)",
+  "directories": {
+    "lib": "."
+  },
+  "dependencies": {
+    "express": "2.0.0beta3",
+    "node-markdown": "0.1.0"
+  }
+  "engines": {
+    "node": "0.4.2"
+  }
+}
